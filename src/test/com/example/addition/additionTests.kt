@@ -1,7 +1,7 @@
 import main.com.example.addition.addAllNumbers
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
-class AdditionTest {
+class AdditionTests {
     @Test
     fun testReturnsAdditionOfGivenNumbers(){
         assertEquals(150, addAllNumbers(arrayOf(10, 20, 30, 40, 50)))
